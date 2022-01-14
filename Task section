@@ -1,3 +1,71 @@
 Task 1 - 
      Compilor is a software program that converts high level program language into a low level machine readable language 
      Interpreter is a program that directly executes set of instructions line by line without previously getting compiled to machine level language
+     
+Task 2 -    Rules for creating variable :-
+                   should begin with alphabets (upper case or lower case) or digits or underscore. Other than this we get error.
+                    variable should not begin with digits
+Task 3 -   
+            Variable- It is a storage location used to hold the value. 
+            
+            Data type - Indicates the type of data present inside the variable
+            Data types in python:- int, float, str, bool, complex
+            int - used to represent whole numbers 
+                  example - a=10
+                            type(a) #<class 'int'>
+            float - used to represent floating point or decimal values
+                    example - b=9.567
+                              type(b) #<class 'float'>
+            complex - used to represent complex numbers. Numbers which are in the form of a+bj where a is real part and b is imaginary part
+                      example - d=2+10j
+                                type(d) #<class 'complex'>
+                      complex data types has some in-built attributes to retrieve real and imaginary part
+                                 d.real=> 2.0
+                                 d.imag=> 10.0
+            bool - we can use this data type to represent boolean values. true and false
+                   example - c=True
+                             type(c) #<class 'bool'>
+                   bool is case sensitive
+            str - any character within sinle quotes(' ') or double quotes(" ")  
+                  example - s1='python'
+                            type(s1) #<class 'str'>
+                            
+                            
+                            
+                            
+                            
+            Keywords - certain set of special words used to represent specific meanings or functions
+                       example - true, false, if, else
+                       
+
+
+Task 4 -   operators - used to perform certain specific operators
+           types of operators - arithmetic operators (+, -, *, /, //, %, **)
+                                example - a=10
+                                           b=5
+                                             print('a+b = ',a+b)    15
+                                             print('a+b = ',a-b)     10
+                                             print('a+b = ',a*b)     50
+                                             print('a+b = ',a/b)     2.0
+                                             print('a+b = ',a//b)    2
+                                             print('a+b = ',a%b)      0
+                                             print('a+b = ',a**b     100000 
+
+                                comparision operators - (>,>=,<,<=)
+                                example -    a=10
+                                             b=20
+                                             print(a>b)
+                                             print(a>=b)
+                                             print(a<b)
+                                             print(a<=b)
+                       
+                                assignment operators - (=) - only used to assign values
+                                
+                                logical operators - and, or, not
+                                                    and=> if both arguments are true only yhen it returns true
+                                                    or => if one argument is true then it returns true
+                                                    not => compliment 
+                                                    
+                                for non boolean types behaviour - 0 => false
+                                                                  non zero => true
+                                                                  empty string- false
