@@ -69,3 +69,46 @@ Task 4 -   operators - used to perform certain specific operators
                                 for non boolean types behaviour - 0 => false
                                                                   non zero => true
                                                                   empty string- false
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+ Task 6 -  type casting or type conversion -  
+           following functions are available to convert from one type to another. 
+           int(), float(), bool(), str(), complex()
+           
+           note:- cannot convert complex to int type
+                  if str type has to be converted to int type, then it should only be of integral type value
+                  ex - int('abc') - invalid literal for int() with base 10: 'BC'
+                       int(2+5j) - TypeError: can't convert complex to int
+
+                  cannot convert complex to float type
+                  ex - float(2+3j)
+	
+                         Traceback (most recent call last):
+                           File "<pyshell#11>", line 1, in <module>
+                             float(2+3j)
+                         TypeError: can't convert complex to float
+                         
+                  if str type has to be converted to float type, then it should only be of integral type value or float type value
+                   ex - float('tiger')
+	
+                              Traceback (most recent call last):
+                                File "<pyshell#12>", line 1, in <module>
+                                  float('tiger')
+                              ValueError: could not convert string to float: 'tiger'    
+                    
+                  cannot convert str type to complex data type
+                     ex - complex('qwer')
+                              Traceback (most recent call last):
+                                File "<pyshell#4>", line 1, in <module>
+                                  complex('qwer')
+                              ValueError: complex() arg is a malformed string
+                              
+                  any type can be converted to bool type
+                  
+                  any type can be converted to string type
+
+  
+  
+  Task 9 - 
