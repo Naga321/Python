@@ -111,4 +111,132 @@ Task 4 -   operators - used to perform certain specific operators
 
   
   
-  Task 9 - 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+January 16-
+
+Task 1- 
+
+          s=input('Enter the string')
+		print(s)
+		mi=int(len(s)/2)
+		print(s[mi])
+		
+		
+Task 2 - s="***python***"
+	print(s.strip('*'))
+	
+	
+	s='**python******'
+	print(s.rstrip('*'))
+	
+	
+	s='**python******'
+	print(s.lstrip('*'))
+	
+	
+	
+Task 3 - s1=input("enter string1")
+	s2=input('enter string 2')
+	s3=input('enter string 3')
+	sp1=(s1.split())
+	sp2=(s2.split())
+	sp3=(s3.split())
+	total=float(sp1[-1])+float(sp2[-1])+float(sp3[-1])
+	print(total)
+	
+	
+	
+
+Task 4 - 
+	
+
+
+		
+Task 5 - 	s1=input("Enter string 1")
+		s2=input("Enter string 2")
+		sm1=s1[int(len(s1)/2)]
+		sm2=s2[int(len(s2)/2)]
+		ascii_sm1=ord(sm1)
+		ascii_sm2=ord(sm2)
+		print(ascii_sm1 + ascii_sm2)
+		
+		
+		
+-----------------------------------------------------------------------------------------------------------------------------------------
+List 
+
+
+      list=[]
+      print(type(list))
+      
+      
+      
+      list_1=[]
+	list_2=[5,6,7,8]
+	print(list_1+list_2)
+	
+	
+	
+	
+	
+	list_1=[]
+	list_2=[5,6,7,8]
+	list_3=list_1+list_2
+	print(list_3)
+	list_4=[8,9,1,5,6,7,8,1]
+	list_3.extend(list_4)
+	print(list_3)
+	
+	
+	
+	
+	list_1=[]
+	list_2=[5,6,7,8]
+	list_3=list_1+list_2
+	print(list_3)
+	list_4=[8,9,1,5,6,7,8,1]
+	list_3.extend(list_4)
+	print(list_3)
+	print(list_3.count(8))
+	print(sum(list_3))
+	print((sum(list_3))/len(list_3))
+
+
+
+
+
+
+
+Tuple - 
+
+
+           
+	   a=(1,2,3,4,5,6)
+		b=(5,6,7,8,9)
+		c=a+b
+		print(c)
+
+		
+		
+
+
+Set - 
+
+
+                a=set()
+		b=set()
+		c={7,8,9,1,2,3,4,5,0}
+		a.update(c)
+		print(a)
+		d={4,5,6,0}
+		b.update(d)
+		print(b)
+		print(b.issubset(a))
+		print(a.isdisjoint(b))
+		a.discard(8)
+		print(a)
+
+
+		
+	
