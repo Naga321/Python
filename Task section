@@ -240,3 +240,18 @@ Set -
 
 		
 	
+	
+	
+Dictionary - 
+                          
+			  
+			        a={1:["english","maths","science"], 2:[10,20,30], 3:["bio-botany","bio-zoology","Algebra"]}
+				li=a[3]
+				print(li)
+				print(li[0][0:10:2])
+				#print(li[-1][-1:1])
+				print(tuple(a.keys()))
+				li2=a[2]
+				b=sum(li2)/len(li2)
+				print(b)
+
