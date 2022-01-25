@@ -164,7 +164,6 @@ Task 5 - 	s1=input("Enter string 1")
 		
 		
 -----------------------------------------------------------------------------------------------------------------------------------------
-List 
 
 
       list=[]
@@ -328,3 +327,138 @@ Task 6 -
 					print(a[2][40][3:5])
 					print(a[40][1][0:3])
 					print(a[40][2][0:3])
+					
+					
+					
+					
+		--------------------------------------------------------------------------------------------------------------------------------			
+					
+Jan 22					
+----------------------------------------------------------------------------------------
+
+
+Fizzbuzz -  
+
+             n=int(input("Enter a number"))
+		if n%3==0 and n%5==0:
+		    print("Fizzbuzz")
+		elif n%3==0:
+			print("Fizz")
+		elif n%5==0:
+			print("Buzz")
+		else:
+		   print("enter proper number")
+		   
+		   
+		   
+		   
+Task 1 :
+
+
+               for i in range(0,76):
+		    if i%5==0:
+			print(str(i))
+			
+			
+			
+		for i in range(0,73):
+			    if i%8==0:
+				print(str(i))
+				
+		
+		
+		for i in range(75,0,-1):
+		    if i%5==0:
+			print(str(i))
+			
+			
+			
+		for i in range(96,71,-1):
+		    if i%8==0:
+			print(str(i))
+	
+
+
+Task 2 : 
+
+
+                n=int(input("Enter the number of elements"))
+		list=[]
+		for i in range(n):
+		     element=input("Enter the element")
+		     list.append(element)
+
+		print(list)    
+		
+		
+		
+		
+		
+		a={}
+		n=int(input("Enter number of elements"))
+		for i in range(n):
+		    k=input("Enter key: ")
+		    v=input("Enter value: ")
+		    a.update({k:v})
+
+
+		print(a)    
+		
+		
+		
+Task 4 : 
+
+
+                a=int(input("Enter first number"))
+		b=int(input("Enter second number"))
+		list=[]
+		for i in range(a,b):
+		    if i%8==0:
+			list.append(i)
+
+
+		print(list)    
+		
+		
+		
+Task 5 :
+
+
+                n=int(input("Enter number of elements"))
+		li1=[]
+		li_odd=[]
+		li_even=[]
+		for i in range(n):
+		    element=input("Enter the element")
+		    li1.append(element)
+		    if i%2==0:
+			li_even.append(element)
+		    else:
+			li_odd.append(element)
+
+
+		print(li1)
+		print(li_odd)
+		print(li_even)
+		
+		
+		
+Task 7 : 
+
+
+
+                [0, 1, 2, 3, 4]
+		[1, 2, 3, 4]
+		[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+		[-5, -4, -3, -2, -1, 0, 1, 2, 3, 4]
+		[10, 20, 30, 40, 50, 60, 70, 80, 90]
+		[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+		[-5, -2, 1, 4]
+		[10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95]
+		[10, 8, 6, 4, 2]
+
+    
+
+
+
+
